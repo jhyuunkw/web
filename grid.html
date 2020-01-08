@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      #grid {
+        border: 5px solid pink;
+        display: grid;
+        grid-template-columns: 150px 1fr /*fr은 화면 전체에서 주어지는 나머지 영역을 그대로 쓰겠다는 이야기*/
+      }
+      div {
+        border: 5px solid gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="grid">
+      <div>
+        NAVIGATION
+      </div>
+      <div>
+        ARTICLE
+      </div>
+    </div>
+  </body>
+</html>
